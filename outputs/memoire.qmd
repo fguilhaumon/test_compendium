@@ -1,0 +1,26 @@
+---
+title: "Global coral and fish diversity"
+author: "François Guilhaumon"
+format:
+  docx:
+    reference-doc: custom-reference-doc.docx
+editor: source
+---
+
+
+## Introduction
+
+In this paper we study the distribution of coral genera and fish species across the world coral reefs.
+
+## Results
+
+```{r}
+
+ dat_fich <- here::here("outputs/data_clean.csv")
+ dat <- read.csv(file = dat_fich)
+ n_lig <- nrow(dat)
+```
+
+In the data table we have `r n_lig` observations (coral reefs cells).
+
+![](../outputs/hist_coral.png)

@@ -3,6 +3,7 @@ dir.create("data")
 dir.create("analyses")
 dir.create("R")
 dir.create("outputs")
+dir.create("memoire")
 
 # installation de usethis pour fabriquer le fichier DESCRIPTION
 install.packages("usethis")

@@ -60,8 +60,9 @@ plot_hist <- function (taxon) {
     png(filename = "outputs/hist_coral.png")
     
     hist(dat$cor_gen_div,
-         main = "Distribution of coral genera number",
-         xlab = "")
+         main = "",
+         xlab = "",
+         col = "green")
     
   } # eo if coral
   
@@ -70,7 +71,7 @@ plot_hist <- function (taxon) {
     png(filename = "outputs/hist_fish.png")
     
     hist(dat$fish_sp_div,
-         main = "Distribution of fish species number",
+         main = "",
          xlab = "")
     
   }# eo if fish

@@ -14,3 +14,6 @@ source(file = "analyses/01_data.R")
 
 # make the histograms
 source(file = "analyses/02_visualisation.R")
+
+# make the 'memoire'
+quarto::quarto_render(input = "outputs/memoire.qmd")
